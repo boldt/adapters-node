@@ -1,5 +1,5 @@
 {
-  "name": "adapters-node",
+  "name": "adapters",
   "version": "0.0.1",
   "description": "",
   "main": "adapters.js",
