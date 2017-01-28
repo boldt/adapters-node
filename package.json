@@ -1,0 +1,8 @@
+{
+  "name": "adapters-node",
+  "version": "0.0.1",
+  "description": "",
+  "main": "adapters.js",
+  "author": "Dennis Boldt",
+  "license": "MIT"
+}
