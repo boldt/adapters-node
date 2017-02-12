@@ -6,7 +6,9 @@
   "author": "Dennis Boldt",
   "license": "MIT",
   "dependencies": {
+    "bluebird": "^3.4.7",
     "node-webcrypto-ossl": "^1.0.16",
-    "text-encoding": "^0.6.4"
+    "text-encoding": "^0.6.4",
+    "webrtc-native": "^1.4.0"
   }
 }
