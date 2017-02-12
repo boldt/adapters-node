@@ -1,5 +1,5 @@
 var webrtc = require('webrtc-native');
-var Bluebird from 'bluebird';
+var Bluebird = require('bluebird');
 
 // adapter.js doesnt detect webrtc-native, this codepiece is directly borrowed from adapter.js
 ['createOffer', 'createAnswer'].forEach(function(method) {
