@@ -1,5 +1,5 @@
 //
-// Adapters for node.de
+// Adapters for node.js
 //
 
 var WebCrypto = require("node-webcrypto-ossl");

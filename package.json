@@ -1,13 +1,13 @@
 {
   "name": "adapters",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "adapters.js",
   "author": "Dennis Boldt",
   "license": "MIT",
   "dependencies": {
-    "bluebird": "^3.4.7",
-    "node-webcrypto-ossl": "^1.0.16",
+    "bluebird": "^3.5.0",
+    "node-webcrypto-ossl": "^1.0.21",
     "text-encoding": "^0.6.4",
     "webrtc-native": "^1.4.0"
   }
