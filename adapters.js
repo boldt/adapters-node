@@ -4,7 +4,7 @@
 
 var WebCrypto = require("node-webcrypto-ossl");
 var textencoding = require('text-encoding');
-var webrtc = require('./inc/webrtc');
+//var webrtc = require('./inc/webrtc');
 
 var Adapters = {
   // WebCrypto API
@@ -18,9 +18,9 @@ var Adapters = {
 
   // WebRTC
   // https://www.w3.org/TR/webrtc/
-  RTCPeerConnection: webrtc.RTCPeerConnection,
-  SessionDescription: webrtc.RTCSessionDescription,
-  IceCandidate: webrtc.RTCIceCandidate
+  //RTCPeerConnection: webrtc.RTCPeerConnection,
+  //SessionDescription: webrtc.RTCSessionDescription,
+  //IceCandidate: webrtc.RTCIceCandidate
 }
 
 module.exports = Adapters;
