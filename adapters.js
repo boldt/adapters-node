@@ -5,6 +5,7 @@
 var WebCrypto = require("node-webcrypto-ossl");
 var textencoding = require('text-encoding');
 var webrtc = require('./inc/webrtc');
+var Bluebird = require('bluebird');
 
 var Adapters = {
   // WebCrypto API
@@ -20,7 +21,10 @@ var Adapters = {
   // https://www.w3.org/TR/webrtc/
   RTCPeerConnection: webrtc.RTCPeerConnection,
   SessionDescription: webrtc.RTCSessionDescription,
-  IceCandidate: webrtc.RTCIceCandidate
+  IceCandidate: webrtc.RTCIceCandidate,
+
+  // Promise
+  Promise: Bluebird
 }
 
 module.exports = Adapters;
