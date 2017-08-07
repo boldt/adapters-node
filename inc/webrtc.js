@@ -1,7 +1,17 @@
 var webrtc = require('webrtc-native');
 var Bluebird = require('bluebird');
 
-// adapter.js doesnt detect webrtc-native, this codepiece is directly borrowed from adapter.js
+/**
+ * The current state of webrtc-native yields old style reports.
+ * We need to convert them to the new standard format:
+ *
+ * Borrowed from:
+ * > https://github.com/webrtc/adapter/blob/master/src/js/chrome/chrome_shim.js
+ *
+ * NOTE: When bumping webrtc-native, make sure to check for reports-style
+ *
+ */
+
 ['createOffer', 'createAnswer'].forEach(function(method) {
   var nativeMethod = webrtc.RTCPeerConnection.prototype[method];
   webrtc.RTCPeerConnection.prototype[method] = function() {
