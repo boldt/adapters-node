@@ -8,6 +8,7 @@
   "dependencies": {
     "bluebird": "^3.5.0",
     "node-webcrypto-ossl": "^1.0.21",
-    "text-encoding": "^0.6.4"
+    "text-encoding": "^0.6.4",
+    "webrtc-native": "github:boldt/webrtc-native",
   }
 }
