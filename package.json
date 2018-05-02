@@ -6,11 +6,11 @@
   "author": "Dennis Boldt",
   "license": "MIT",
   "dependencies": {
-    "bluebird": "^3.5.0",
-    "node-webcrypto-ossl": "^1.0.21",
+    "bluebird": "^3.5.1",
+    "node-webcrypto-ossl": "^1.0.36",
     "text-encoding": "^0.6.4",
-    "webrtc-native": "github:boldt/webrtc-native",
-    "ws": "^0.8.1",
-    "webworker-threads": "^0.7.11"
+    "webworker-threads": "^0.7.13",
+    "wrtc": "^0.1.4",
+    "ws": "^5.1.1"
   }
 }
