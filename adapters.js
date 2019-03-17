@@ -5,7 +5,6 @@
 var WebCrypto = require("node-webcrypto-ossl");
 var textencoding = require('text-encoding');
 var webrtc = require('wrtc');
-var Bluebird = require('bluebird');
 var ws = require('ws');
 var Worker = require('webworker-threads').Worker;
 
@@ -25,9 +24,6 @@ var Adapters = {
   RTCPeerConnection: webrtc.RTCPeerConnection,
   SessionDescription: webrtc.RTCSessionDescription,
   IceCandidate: webrtc.RTCIceCandidate,
-
-  // Promise
-  Promise: Bluebird,
 
   // WebSocket
   WebSocket: ws,
